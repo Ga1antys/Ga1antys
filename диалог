@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace консол
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Меня зовут Алексей";
+            string agi = "Мне 21";
+            string zodiacSign = "Мой знак водолей";
+            string placeOfWork = "Я работаю на заводе";
+            Console.WriteLine($"Как вас завут? {name}. Сколько вам лет? {agi}. Какой у вас знак зодиака? {zodiacSign}. А где вы работаете {placeOfWork}");
+        }
+    }
+}
