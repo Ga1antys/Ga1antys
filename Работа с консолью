@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace консол
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { 
+            string naem;
+            int age;
+            string zodiacSign;
+            string placeOfWork;
+            Console.Write("Как вас зовут?");
+            naem = Console.ReadLine();
+            Console.Write("Какой у вас возрост?");
+            age = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Какой у вас знак зодиака?");
+            zodiacSign = Console.ReadLine();
+            Console.Write("Где вы работаете?");
+            placeOfWork = Console.ReadLine();           
+        }
+    }
+}
